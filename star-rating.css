@@ -1,0 +1,20 @@
+body {
+  text-align:center;
+}
+.rating {
+  font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.test {
+  color: yellow;
+}
+
+.rating_type_btn {
+  width: 2.0em;
+  cursor: pointer;
+}
+
+.credit {
+  margin: 100px;
+}
