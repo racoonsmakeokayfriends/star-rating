@@ -1,10 +1,11 @@
 body {
   text-align:center;
 }
-.rating {
+#rating {
   font-size: 3em;
   margin-top: 100px;
   margin-bottom: 50px;
+  color: gold;
 }
 .test {
   color: yellow;
@@ -14,6 +15,129 @@ body {
   width: 2.0em;
   cursor: pointer;
 }
+
+
+/*------------------------------------------- STARS*/
+.rating_type_btn.star:hover i:before,
+#rating.star i[full='yes']:before 
+{ content: "\f005"; }
+
+.rating_type_btn.star  i:before, 
+#rating.star i[full='no']:before 
+{ content: "\f006"; }
+
+/*------------------------------------------- HEARTS*/
+.rating_type_btn.heart:hover i:before,
+#rating.heart i[full='yes']:before 
+{ content: "\f004"; }
+
+.rating_type_btn.heart i:before, 
+#rating.heart i[full='no']:before { content: "\f08a"; }
+
+
+/*------------------------------------------- CIRCLE*/
+.rating_type_btn.circle:hover i:before,
+#rating.circle i[full='yes']:before 
+{  content: "\f111"; }
+
+.rating_type_btn.circle i:before, 
+#rating.circle i[full='no']:before 
+{ content: "\f10c"; }
+
+
+/*------------------------------------------- SQUARE*/
+.rating_type_btn.square:hover i:before,
+#rating.square i[full='yes']:before 
+{ content: "\f0c8"; }
+
+.rating_type_btn.square i:before, 
+#rating.square i[full='no']:before 
+{ content: "\f096"; }
+
+
+/*------------------------------------------- ENVELOPE*/
+.rating_type_btn.envelope:hover i:before,
+#rating.envelope i[full='yes']:before 
+{ content: "\f0e0"; }
+
+.rating_type_btn.envelope i:before, 
+#rating.envelope i[full='no']:before 
+{ content: "\f003"; }
+
+
+/*------------------------------------------- TRASH*/
+.rating_type_btn.trash:hover i:before,
+#rating.trash i[full='yes']:before 
+{ content: "\f1f8"; }
+
+.rating_type_btn.trash i:before, 
+#rating.trash i[full='no']:before 
+{ content: "\f014"; }
+
+
+/*------------------------------------------- THUMBS-UP*/
+.rating_type_btn.thumbs-up:hover i:before,
+#rating.thumbs-up i[full='yes']:before 
+{ content: "\f164"; }
+
+.rating_type_btn.thumbs-up i:before, 
+#rating.thumbs-up i[full='no']:before 
+{ content: "\f087"; }
+
+/*------------------------------------------- THUMBS-DOWN*/
+.rating_type_btn.thumbs-down:hover i:before,
+#rating.thumbs-down i[full='yes']:before 
+{ content: "\f165"; }
+
+.rating_type_btn.thumbs-down i:before, 
+#rating.thumbs-down i[full='no']:before 
+{ content: "\f088"; }
+
+
+/*------------------------------------------- FOLDER*/
+.rating_type_btn.folder:hover i:before,
+#rating.folder i[full='yes']:before 
+{ content: "\f07b"; }
+
+.rating_type_btn.folder i:before, 
+#rating.folder i[full='no']:before 
+{ content: "\f114"; }
+
+/*------------------------------------------- FLAG*/
+.rating_type_btn.flag:hover i:before,
+#rating.flag i[full='yes']:before 
+{ content: "\f024"; }
+
+.rating_type_btn.flag i:before, 
+#rating.flag i[full='no']:before 
+{ content: "\f11d"; }
+
+/*------------------------------------------- BOOKMARK*/
+.rating_type_btn.bookmark:hover i:before,
+#rating.bookmark i[full='yes']:before
+{ content: "\f02e"; }
+
+.rating_type_btn.bookmark i:before, 
+#rating.bookmark i[full='no']:before 
+{ content: "\f097"; }
+
+/*------------------------------------------- COMMENT*/
+.rating_type_btn.comment:hover i:before,
+#rating.comment i[full='yes']:before  
+{ content: "\f075"; }
+
+.rating_type_btn.comment i:before, 
+#rating.comment i[full='no']:before 
+{ content: "\f0e5"; }
+
+/*------------------------------------------- COMMENTS*/
+.rating_type_btn.comments:hover i:before,
+#rating.comments i[full='yes']:before  
+{ content: "\f086"; }
+
+.rating_type_btn.comments i:before, 
+#rating.comments i[full='no']:before 
+{ content: "\f0e6"; }
 
 .credit {
   margin: 100px;
